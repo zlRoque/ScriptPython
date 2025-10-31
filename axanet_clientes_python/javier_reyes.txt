@@ -1,0 +1,7 @@
+Nombre: javier reyes
+ID_Cliente: JA_20251030214726
+Telefono: 6567643
+Correo: zlkroque@hotmail.com
+FechaRegistro: 2025-10-30
+Servicios:
+- peticion1 (2025-10-30)

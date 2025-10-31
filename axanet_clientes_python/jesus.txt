@@ -1,0 +1,8 @@
+Nombre: jesus
+ID_Cliente: JE_20251030214747
+Telefono: 656786789
+Correo: jesus@gmail.com
+FechaRegistro: 2025-10-30
+Servicios:
+- peticion2 (2025-10-30)
+- peticion 4 (2025-10-30)

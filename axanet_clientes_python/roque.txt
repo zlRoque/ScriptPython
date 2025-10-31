@@ -1,0 +1,7 @@
+Nombre: roque
+ID_Cliente: RO_20251030204141
+Telefono: 65666
+Correo: zlroque
+FechaRegistro: 2025-10-30
+Servicios:
+- prueba (2025-10-30)

@@ -1,1 +1,18 @@
-nano .github/workflows/crear_cliente.yml
+
+name: Crear Nuevo Cliente
+
+on:
+  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+
+jobs:
+  crear_cliente:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Simular creación de cliente
+      run: |
+        echo "🟢 Nuevo cliente creado en el sistema Axanet."
+        echo "📣 Notificación a todos los miembros del equipo."

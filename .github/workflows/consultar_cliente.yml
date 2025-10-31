@@ -1,2 +1,18 @@
-nano .github/workflows/consultar_cliente.yml
+name: Consultar Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  consultar_cliente:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Simular consulta de cliente
+      run: |
+        echo "🔵 Información de cliente consultada."
+        echo "📣 Notificación a todos los miembros del equipo."
 

@@ -1,1 +1,18 @@
-nano .github/workflows/actualizar_cliente.yml
+name: Actualizar Cliente Recurrente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  actualizar_cliente:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Simular actualización de cliente
+      run: |
+        echo "🟡 Cliente recurrente actualizado con nueva solicitud."
+        echo "📣 Notificación a todos los miembros del equipo."
+

@@ -1,0 +1,13 @@
+name: Modificación del Código
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notificar_modificacion_codigo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Detectar cambios
+        run: echo "🧠 Se ha modificado el código de la aplicación."

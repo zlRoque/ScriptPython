@@ -1,0 +1,11 @@
+name: Solicitud de Mejora
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar_mejora:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar solicitud
+        run: echo "🚀 Se ha solicitado una mejora para la aplicación."

@@ -1,0 +1,11 @@
+name: Creación de Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar_creacion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje de creación
+        run: echo "🆕 Se ha creado un nuevo cliente en la aplicación."

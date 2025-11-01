@@ -1,0 +1,12 @@
+
+name: Solicitud de Nuevas Funciones
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar_nuevas_funciones:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar solicitud
+        run: echo "✨ Se ha solicitado una nueva función en la aplicación."

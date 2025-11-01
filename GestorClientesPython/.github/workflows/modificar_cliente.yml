@@ -1,0 +1,12 @@
+name: Modificación de Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar_modificacion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje de actualización
+        run: echo "✏️ Se han modificado los datos de un cliente existente."
+
